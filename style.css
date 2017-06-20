@@ -1,13 +1,14 @@
 body {
-    background-color: white;
+
+    /*background-image: url("gray-blue-waver.png");*/
     font-family: "Calibri Light", sans-serif;
 }
 
 header{
-
     height:100px;
     width:auto;
-    background-image: url("top_background.jpg");
+    background:url("top_background.jpg");
+
     )
 }
 h1 {
@@ -18,13 +19,10 @@ h1 {
 h2{
     font-size: 25px;
     color:#9bc3e6 ;
-
-
 }
 p {
     font-size: 20px;
-    color: rgba(23,13,10,0.6);
-
+    color: rgba(23, 13, 10, 0.6);
 }
 
 a{
