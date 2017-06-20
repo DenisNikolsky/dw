@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+    font-family: "Calibri Light", sans-serif;
+}
+
+header{
+
+    height:100px;
+    width:auto;
+    background-image: url("top_background.jpg");
+    )
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #9bc3e6;
+}
+h2{
+    font-size: 25px;
+    color:#9bc3e6 ;
+
+
+}
+p {
+    font-size: 20px;
+    color: rgba(23,13,10,0.6);
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+h1 a:visited{
+    color: rgba(7, 80, 145, 0.64);
+    font-style: italic;
+}
+h1 a:hover{
+    color: rgba(8, 101, 177, 0.77);
+}
+nav{
+    position: relative;
+    /*overflow:hidden;*/
+    height:40px;
+    /*margin:30px 0;*/
+
+}
+
+nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    position: relative;
+    left:50%;
+    float:left;
+    text-align: center;
+ }
+
+nav ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+nav a{
+
+    display: block;
+    position: relative;
+    width: 5em;
+    padding:10px;
+    margin: 0 5px;
+    background-color: #f4f4f4;
+    border-style: none;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+footer{
+
+    text-align: center;
+}
+
+
