@@ -1,6 +1,7 @@
+
 body {
 
-    /*background-image: url("gray-blue-waver.png");*/
+    background-image: url("gray-blue-monodiag.png");
     font-family: "Calibri Light", sans-serif;
 }
 
@@ -22,7 +23,7 @@ h2{
 }
 p {
     font-size: 20px;
-    color: rgba(23, 13, 10, 0.6);
+    color: rgba(12, 6, 6, 0.45);
 }
 
 a{
@@ -31,21 +32,19 @@ a{
 
 }
 h1 a:visited{
-    color: rgba(7, 80, 145, 0.64);
-    font-style: italic;
+    color: rgba(8, 101, 177, 0.77);
 }
 h1 a:hover{
-    color: rgba(8, 101, 177, 0.77);
+    color: #9bc3e6 ;
 }
 nav{
     position: relative;
-    /*overflow:hidden;*/
     height:40px;
-    /*margin:30px 0;*/
+
 
 }
 
-nav ul {
+ ul {
     list-style:none;
     margin:0;
     padding:0;
@@ -55,7 +54,7 @@ nav ul {
     text-align: center;
  }
 
-nav ul li {
+ ul li {
     position: relative;
     left: -50%;
     float: left;
@@ -81,8 +80,25 @@ ul a:hover{
     color: #f4f4f4;
 }
 
-footer{
+.SocialNetwork img{
 
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+
+}
+audio{
+    margin: -50px -255px;
+}
+footer p{
+    color: darkgrey;
     text-align: center;
 }
 
